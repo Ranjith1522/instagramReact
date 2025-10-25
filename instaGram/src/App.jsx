@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div>
+    <>
       <div className="login-container">
         <img src='https://kite.zerodha.com/static/images/kite-logo.svg'></img>
         <h3>Login to Kite</h3>
@@ -16,7 +16,7 @@ function App() {
         <button className='login'>Login</button>
         <p>Forgot user ID or Password?</p>
       </div>
-    </div>
+    </>
   )
 }
 
