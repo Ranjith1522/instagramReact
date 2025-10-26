@@ -6,6 +6,8 @@
 }
 
 .login-container {
+  display: grid;
+  flex-direction: row;
   height: 360px;
   width:260px;
   border: 1px solid orange;
